@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# T.O.R.Q. - On-Demand Fuel Delivery & Roadside Assistance App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Smart India Hackathon 2024  
+Team Name: Code Crafters  
+Team Members: Dhruv Rangan, Khushi Diwan, Yashveer Singh, Philem Arjun, Devansh Datta  
+Problem Statement: On-Demand Fuel Delivery & Roadside Assistance for Personal Vehicles  
+Theme: Mobility / Transportation  
+Category: Software  
 
-## Get started
+Overview
+T.O.R.Q. (Total On-Demand Reliable Quick) is a mobile application designed to solve fueling inefficiencies and roadside emergencies for car and bike owners. Whether you're stranded without fuel or facing a flat tire, T.O.R.Q. delivers quick, reliable solutions right to your location with real-time tracking and seamless integration of services.
 
-1. Install dependencies
+Problem Statement
+- Emergency Fuel Needs: Stranded vehicle owners lack immediate solutions for urgent refueling.  
+- Breakdown Hassles: Flat tires, dead batteries, and roadside breakdowns leave users stressed with delayed or unavailable assistance.  
 
-   ```bash
-   npm install
-   ```
+T.O.R.Q. bridges these gaps by combining fuel delivery and roadside support in one platform.
 
-2. Start the app
+Features
+- On-Demand Fuel Delivery: Request 5L of petrol/diesel delivered to your location.  
+- Roadside Assistance: Get help for flat tires, battery jump-starts, or towing.  
+- Real-Time Tracking: Monitor your service provider's ETA using Google Maps API.  
+- User-Friendly Interface: Secure in-app payments, service history, and vehicle profiles.  
+- SOS Emergency: One-tap access to urgent help.  
 
-   ```bash
-    npx expo start
-   ```
+Unique Value Propositions (UVPs)
+1. Seamless Integration: Fuel delivery and roadside assistance in a single app.  
+2. Convenience: Real-time updates and hassle-free payments for a stress-free experience.  
 
-In the output, you'll find options to open the app in a
+Tech Stack
+- Frontend: React Native (Mobile App), HTML/CSS/JavaScript (Web)  
+- Backend: Node.js, Express.js  
+- Database: Firebase Firestore (Real-time data), PostgreSQL (Persistent storage)  
+- APIs: Google Maps API (Location & Tracking), Payment Gateway (Razorpay/Stripe)  
+- Real-Time Features: WebSockets  
+- Deployment: AWS / Vercel  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Process Flow
+1. User Request: Open T.O.R.Q., select fuel or assistance, and specify vehicle/location.  
+2. Order Processing: System assigns the nearest driver/technician.  
+3. Service Delivery: Fuel or support is provided with live tracking.  
+4. Payment: Securely completed via the app.  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Feasibility & Viability
+- Technical Feasibility: Scalable cloud infrastructure (AWS) and proven tech (Node.js, WebSockets).  
+- Operational Feasibility: Partnerships with fuel stations and mechanics; compliance with PESO guidelines for fuel transport.  
+- Market Potential: $3.2B in 2025, growing to $12.5B by 2035 (14% CAGR).  
 
-## Get a fresh project
+Challenges & Solutions
+- Regulatory Compliance: Limited to 5L fuel deliveries in PESO-approved containers; legal partnerships with oil companies.  
+- Service Demand: Predictive analytics and reserve drivers for peak times.  
+- User Trust: Transparent pricing, ratings, and a robust pilot phase.  
 
-When you're ready, run:
+Impact & Benefits
+- Social: Reduces stress and enhances safety for vehicle owners.  
+- Economic: Saves costs on towing/fuel runs; creates jobs for drivers.  
+- Environmental: Optimized routing cuts emissions vs. individual station trips.  
 
-```bash
-npm run reset-project
-```
+Future Scope
+- Expand to rural areas with offline request options.  
+- Integrate EV charging services.  
+- Add subscription plans for frequent users.  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
