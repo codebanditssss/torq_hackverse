@@ -1,6 +1,6 @@
 # T.O.R.Q. - On-Demand Fuel Delivery & Roadside Assistance App
 
-Smart India Hackathon 2024  
+Smart India Hackathon 2025  
 Team Name: Code Crafters  
 Team Members: Dhruv Rangan, Khushi Diwan, Yashveer Singh, Philem Arjun, Devansh Datta  
 Problem Statement: On-Demand Fuel Delivery & Roadside Assistance for Personal Vehicles  
